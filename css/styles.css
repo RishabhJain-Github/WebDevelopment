@@ -1,0 +1,66 @@
+body{
+    text-align:center;
+}
+#racetrack{
+     background: url('../img/road.jpg') center left repeat-x;
+     height: 330px;
+     border-right: dashed 10px white;
+     box-sizing: border-box;
+     margin:40px 0px;
+
+}
+.car {
+    display:block;
+    position:relative;
+}
+#car1{top:30px;}
+#car2{top:100px;}
+
+#raceInfoContainer{
+    width: 80%;
+    margin: 40px auto 0;
+    background:#333;
+    height:200px;
+}
+
+#raceInfoContainer h2{
+    color:white;
+    text-transform: uppercase;
+    border-bottom: solid 1px white;
+    padding: 20px 0px;
+}
+.raceInfo{
+    font-size:24px;
+    font-weight:bold;
+    color:white;
+    width:50%;
+    float:left;
+}
+.raceInfo span{
+    display:block;
+    font-weight:normal;
+    font-size:18px;
+    color:white;
+}  
+.raceInfo1{
+    color:#77b82f;
+}
+.raceInfo2{
+    color:#b82f3e;
+}
+
+input[type="button"]{
+    background:#77b82f;
+    color:white;
+    padding:10px 20px;
+    border:solid 1px #444;
+}
+input#reset{
+    background:#fc3;
+    color:#444;
+}
+.clearfix:after{
+    content:"";
+    display: table;
+    clear:both;
+}
